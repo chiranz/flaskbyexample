@@ -18,6 +18,10 @@ def hello_name(name):
 def register():
 	return "<h1> Work under Process</h2>"
 
+@app.route('/login')
+def login():
+	return "<h1> Work under Process</h2>"
+
 print(os.environ['APP_SETTINGS'])
 if __name__ == '__main__':
 	app.run()
