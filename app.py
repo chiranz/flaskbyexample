@@ -22,6 +22,7 @@ def register():
 def login():
 	return "<h1> Work under Process</h2>"
 
+
 print(os.environ['APP_SETTINGS'])
 if __name__ == '__main__':
 	app.run()
